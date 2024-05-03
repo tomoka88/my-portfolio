@@ -1,0 +1,3 @@
+[submodule "my-portfolio-frontend"]
+    path = my-portfolio-frontend
+    url = https://github.com/tomoka88/myportfolio.git
