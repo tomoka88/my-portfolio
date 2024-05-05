@@ -2,23 +2,27 @@
   "name": "my-portfolio-frontend",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@babel/core": "^7.24.5",
     "@babel/eslint-parser": "^7.24.5",
-    "@babel/preset-react": "^7.24.1",
     "@heroicons/react": "^1.0.6",
+    "firebase": "^10.11.1",
     "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.9"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",

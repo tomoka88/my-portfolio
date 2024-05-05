@@ -17,7 +17,6 @@ const Profile = () => {
           <div className="mx-auto w-32 h-32 relative overflow-hidden rounded-full border-2 border-gray-300">
             <Image src="/子.JPG" alt="Profile Image" layout="fill" objectFit="cover" />
           </div>
-          {/* <div className="flex flex-col justify-center items-center w-full mt-8"> */}
           <div className="bg-white shadow-lg rounded-lg p-8 m-4 w-full" >
             <p className="text-gray-600 mt-3">出身&在住：東京都</p>
             <p className="text-gray-600 mt-3">出身校：東京農業大学</p>
